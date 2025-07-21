@@ -68,6 +68,7 @@ Bu ekran, mevcut kullanıcıların sisteme kullanıcı adı ve şifreleriyle gü
 
 <img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/14ee9947-df2e-4f73-b146-491ef43c2109" />
 ### Anasayfa
+
 Web sitesinin ana sayfasında yer alan bu tanıtım bannerı, öne çıkan lezzetleri (örneğin "Lezzetli Makarnalar"," Eşsiz Hamburgerler","Sıcacık ve Doyurucu Menü Seçenekleri") büyük ve çekici görsellerle vurgular. Üst menü navigasyonu da bu alanda konumlandırılmıştır.
 
 <img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/db697a0e-4d21-4c87-bb28-1c6be2350c95" />
