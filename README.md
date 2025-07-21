@@ -453,7 +453,8 @@ Bu modül, yöneticilerin hızlı şekilde QR kod üretmesini sağlar.
 - Çıktı: Taranabilir bir QR kod anında oluşturulur.
 - Amaç: Fiziksel materyallerde veya dijital içeriklerde hızlı erişim sağlamak.
 
-![QR Kod Ekranı](https://github.com/user-attachments/assets/673eb222-c35c-4d01-8a5d-4ecb10cb9e9c)
+<img width="1920" height="921" alt="image" src="https://github.com/user-attachments/assets/5aa2f2ae-2ed7-4b56-85d1-95c889b1b655" />
+
 
 ## Mail Gönderme
 
