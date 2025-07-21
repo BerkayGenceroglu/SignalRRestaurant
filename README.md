@@ -83,7 +83,7 @@ Web sitesinin ana sayfasında, öne çıkan lezzetler dikkat çekici başlıklar
 
 Bu bölümde hamburger, pizza gibi çeşitli menüler ile özel indirim kampanyaları gösterilir.  
 Kullanıcılar kategorilere göre filtreleme yapabilir ve ürünlerin detaylarını inceleyebilir.
-(Not=2 İndirim ve 9 Ürün Gösterilmek Üzere Özellikle Ayarlanmıştır)
+> 🔖 Bu sayfa, **2 indirim** ve **9 ürün** gösterilecek şekilde özel olarak yapılandırılmıştır.
 
 <img width="1920" height="922" alt="Menü Sayfası" src="https://github.com/user-attachments/assets/87706c12-a8e0-4507-b8b2-a50f0b99233b" />
 
