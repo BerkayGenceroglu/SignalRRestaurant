@@ -473,6 +473,17 @@ Bu ekran, yöneticinin kendi profil bilgilerini güvenli şekilde güncellemesin
 
 ![Bilgi Güncelleme Ekranı](https://github.com/user-attachments/assets/6cbadb55-89a1-434a-9037-52b9bac8f370)
 
+## 404 Hata Sayfası
+
+Bu ekran, **Mr. Berkay Burger** web sitesine özel olarak tasarlanmış 404 hata sayfasını göstermektedir.
+
+- Durum: Kullanıcı geçersiz veya silinmiş bir sayfaya erişmeye çalıştığında devreye girer.
+- Mesaj: “Ooopss! Ne yazık ki aradığınız sayfa bulunamadı :(” ifadesiyle kullanıcı bilgilendirilir.
+- Navigasyon: **"Ana Sayfa'ya Dön"** butonu sayesinde ziyaretçi kolayca siteye geri yönlendirilir.
+- Amaç: Hata durumlarında bile kullanıcı deneyimini desteklemek ve site içinde kalmayı teşvik etmek.
+
+![404 Hata Sayfası](https://github.com/user-attachments/assets/5affca62-ba27-475d-b1bc-9788a1d74c7d)
+
 
 ## 📫 İletişim
 
