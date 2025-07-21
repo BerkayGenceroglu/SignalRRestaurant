@@ -390,29 +390,89 @@ Bu ekran, müşteri yorumları ve referans içeriklerinin yönetildiği modüld�
 ![Referanslar Ekranı](https://github.com/user-attachments/assets/e635200c-681a-4966-8203-97bed0b85472)
 
 ## Sosyal Medya
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Sosyal Medya İşlemleri modülünü sunmaktadır. Bu bölüm, web sitesinde kullanılacak sosyal medya platformlarının bağlantılarını merkezi bir yerden yönetmek için tasarlanmıştır. Yöneticiler, listedeki sosyal medya başlıkları ve ilgili linkler üzerinde kolayca silme, güncelleme işlemleri yapabilir veya "Yeni Sosyal Medya Girişi" butonu ile yeni platform bağlantıları ekleyebilirler. Bu modül, sitenin sosyal medya entegrasyonunu dinamik ve güncel tutmak için pratik bir çözüm sunar.
-<img width="1920" height="925" alt="image" src="https://github.com/user-attachments/assets/2cfe4754-41aa-46b2-a825-162f0815c445" />
+
+Bu ekran, web sitesinde kullanılacak sosyal medya bağlantılarının yönetimini sağlar.
+
+- Listeleme: Sosyal medya başlıkları ve bağlantı adresleri görüntülenir.
+- İşlemler: **Silme** ve **güncelleme** işlemleri kolayca yapılabilir.
+- Yeni Kayıt: **"Yeni Sosyal Medya Girişi"** butonu ile yeni platformlar eklenebilir.
+- Amaç: Sosyal medya entegrasyonunun merkezi ve güncel şekilde yönetilmesi.
+
+![Sosyal Medya Ekranı](https://github.com/user-attachments/assets/2cfe4754-41aa-46b2-a825-162f0815c445)
+
 ## Masa İşlemleri
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Masa İşlemleri modülünü sunmaktadır. Bu bölüm, özellikle restoran veya benzeri işletmelerde kullanılan masa veya bölüm adlarını yönetmek için tasarlanmıştır. Yöneticiler, listedeki masa adları üzerinde kolayca silme ve güncelleme işlemleri yapabilirler. Bu modül, işletmenin fiziki yerleşim düzeninin veya rezervasyon sisteminin güncel ve düzenli tutulmasına olanak sağlar.
-<img width="1920" height="932" alt="image" src="https://github.com/user-attachments/assets/fe1db5e7-4cb2-4a12-8742-0e8de725cd14" />
+
+Bu modül, restoran vb. işletmelerdeki masa veya bölüm adlarının yönetimini sağlar.
+
+- Listeleme: Mevcut masa adları görüntülenir.
+- İşlemler: Masalar **güncellenebilir**, **silinebilir**.
+- Amaç: Fiziksel yerleşim planı veya rezervasyon düzeninin korunması.
+
+![Masa İşlemleri Ekranı](https://github.com/user-attachments/assets/fe1db5e7-4cb2-4a12-8742-0e8de725cd14)
+
 ## Masa Durum Bilgileri
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Anlık Masa Bilgileri modülünü sunmaktadır. Özellikle restoran veya kafe gibi işletmelerde masaların doluluk durumunu gerçek zamanlı olarak takip etmek için tasarlanmıştır. Yeşil kutular masanın boş olduğunu (onay işareti), kırmızı kutular ise dolu olduğunu (çarpı işareti) gösterir. SignalR entegrasyonu sayesinde, masaların doluluk durumları anlık olarak güncellenir, bu da işletme personelinin en güncel masa durumunu hızlıca görmesini ve yönetmesini sağlar. 
-<img width="1913" height="930" alt="image" src="https://github.com/user-attachments/assets/2bb67d73-28a5-4e59-a0bc-705129bea183" />
+
+Bu ekran, masaların doluluk durumunun anlık takibini sağlar.
+
+- Görsel Durum:  
+  - **Yeşil** kutular → masa dolu (✔️)  
+  - **Kırmızı** kutular → masa boş (❌)
+- Gerçek Zamanlı: SignalR sayesinde durumlar anlık olarak güncellenir.
+- Amaç: Personelin anlık masa durumunu takip ederek hızlı hizmet sunmasını sağlamak.
+
+![Masa Durum Bilgileri Ekranı](https://github.com/user-attachments/assets/2bb67d73-28a5-4e59-a0bc-705129bea183)
+
 ## Anlık Mesajlaşma
-Bu ekran görüntüsü, Mr. Berkay Burger web sitesinin SignalR Restoran Anlık Mesajlaşma bölümünü sunmaktadır. Bu özellik, kullanıcılar arasında gerçek zamanlı bir sohbet sistemi sağlamak amacıyla SignalR teknolojisi ile geliştirilmiştir. Ziyaretçiler, basit bir arayüz üzerinden kendi kullanıcı adlarını girerek mesajlarını yazabilir ve anında gönderebilirler. Bu modül, restoran ile müşteriler arasında veya müşterilerin kendi aralarında hızlı ve dinamik iletişimi mümkün kılar.
-<img width="1920" height="894" alt="image" src="https://github.com/user-attachments/assets/ea11037a-a928-4ccf-9023-7a2dda8cc2c9" />
+
+Bu özellik, müşteriler veya yöneticiler arasında anlık mesajlaşmayı mümkün kılar.
+
+- Giriş: Kullanıcı adını girerek sohbete başlanabilir.
+- Gerçek Zamanlı: SignalR altyapısı ile anında mesaj iletimi sağlanır.
+- Amaç: Müşterilerle veya personeller arası hızlı ve etkili iletişim kurulması.
+
+![Anlık Mesajlaşma Ekranı](https://github.com/user-attachments/assets/ea11037a-a928-4ccf-9023-7a2dda8cc2c9)
+
 ## İstatistikler & Durumlar
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Admin İstatistikler & Durumlar bölümünü göstermektedir. Bu panel, işletmenin finansal durumu (Kasadaki Toplam Tutar, Son Sipariş Tutarı vb.) ve operasyonel metrikleri (Toplam Masa Sayısı, Toplam Sipariş Sayısı, Ürün Ortalamaları vb.) hakkında kapsamlı ve özet bilgiler sunar. SignalR entegrasyonu sayesinde, tüm bu istatistikler ve durumlar anlık olarak güncellenir, böylece yöneticiler işletmenin mevcut performansını her zaman en güncel verilerle takip edebilir ve hızlı kararlar alabilir.
-<img width="1920" height="909" alt="image" src="https://github.com/user-attachments/assets/1f296574-19dd-4a6b-8839-8a1bd89e1ebc" />
+
+Bu ekran, işletmeye ait özet metrikleri ve finansal durumları gösterir.
+
+- Bilgiler:  
+  - Kasadaki toplam tutar  
+  - Son sipariş tutarı  
+  - Toplam masa/sipariş sayısı  
+  - Ürün ortalamaları vb.
+- Gerçek Zamanlı: Tüm bilgiler SignalR sayesinde anlık olarak güncellenir.
+- Amaç: Yöneticiye karar alma süreçlerinde güncel ve anlamlı veri sunmak.
+
+![İstatistikler Ekranı](https://github.com/user-attachments/assets/1f296574-19dd-4a6b-8839-8a1bd89e1ebc)
 ## QR Kod Oluşturma
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin QR Kod Oluştur modülünü göstermektedir. Bu bölüm, yöneticilerin herhangi bir metin veya bağlantı (URL) için hızlıca QR kodları oluşturmasına olanak tanır. Kullanıcılar, girmek istedikleri metni veya web adresini ilgili alana yazıp "QR Kod Oluştur" butonuna bastıklarında, anında taranabilir bir QR kodu elde ederler. Bu özellik, fiziksel materyaller üzerinde veya dijital paylaşımlarda hızlı erişim linkleri sağlamak için oldukça kullanışlıdır.
-<img width="1918" height="925" alt="image" src="https://github.com/user-attachments/assets/673eb222-c35c-4d01-8a5d-4ecb10cb9e9c" />
+
+Bu modül, yöneticilerin hızlı şekilde QR kod üretmesini sağlar.
+
+- Kullanım: Metin veya URL girilir, ardından **"QR Kod Oluştur"** butonuna basılır.
+- Çıktı: Taranabilir bir QR kod anında oluşturulur.
+- Amaç: Fiziksel materyallerde veya dijital içeriklerde hızlı erişim sağlamak.
+
+![QR Kod Ekranı](https://github.com/user-attachments/assets/673eb222-c35c-4d01-8a5d-4ecb10cb9e9c)
+
 ## Mail Gönderme
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Mail Gönder modülünü sunmaktadır. Bu bölüm, yöneticilerin platform üzerinden kolayca e-posta göndermesine olanak tanır. Yöneticiler, alıcının e-posta adresini, e-postanın konusunu ve mesaj içeriğini ilgili alanlara girerek iletişim kurabilirler. Bu modül, duyurular, bilgilendirmeler veya müşteri hizmetleri gibi amaçlarla hızlı ve doğrudan e-posta iletişimi sağlamak için pratik bir araçtır.
-<img width="1918" height="922" alt="image" src="https://github.com/user-attachments/assets/4676d0ca-6671-45c1-9ee3-1d7b7941ac71" />
+
+Bu modül, yönetici tarafından sistem üzerinden e-posta gönderimini mümkün kılar.
+
+- Alanlar: Alıcının e-posta adresi, konu ve mesaj içeriği girilir.
+- Amaç: Duyurular, bilgilendirme ya da müşteri hizmetleri için doğrudan iletişim sağlamak.
+
+![Mail Gönderme Ekranı](https://github.com/user-attachments/assets/4676d0ca-6671-45c1-9ee3-1d7b7941ac71)
+
 ## Bilgi Güncelleme
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Profil Bilgilerini Güncelle modülünü sunmaktadır. Bu bölüm, yöneticilerin kendi kişisel ve hesap bilgilerini (Ad, Soyad, Kullanıcı Adı, E-posta Adresi ve Şifre) güvenli bir şekilde güncellemelerine olanak tanır. Yöneticiler, bu modül aracılığıyla profillerindeki bilgileri kolayca düzenleyerek hesaplarını güncel tutabilir ve gerektiğinde şifrelerini yenileyebilirler.
-<img width="1914" height="922" alt="image" src="https://github.com/user-attachments/assets/6cbadb55-89a1-434a-9037-52b9bac8f370" />
+
+Bu ekran, yöneticinin kendi profil bilgilerini güvenli şekilde güncellemesini sağlar.
+
+- Bilgiler: Ad, soyad, kullanıcı adı, e-posta ve şifre.
+- Amaç: Hesap bilgilerinin güncel ve güvenli kalmasını sağlamak.
+
+![Bilgi Güncelleme Ekranı](https://github.com/user-attachments/assets/6cbadb55-89a1-434a-9037-52b9bac8f370)
+
 
 ### 📫 İletişim
 Proje hakkında sorularınız, önerileriniz ya da katkı istekleriniz için benimle iletişime geçebilirsiniz:
