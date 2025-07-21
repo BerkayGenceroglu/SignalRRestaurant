@@ -489,6 +489,7 @@ Teşekkürler! Bu projeyi kullandığınız veya katkıda bulunduğunuz için me
 Her türlü geri bildirime açığım.
 
 **İyi kodlamalar! 🚀**
+<img width="682" height="396" alt="image" src="https://github.com/user-attachments/assets/74a73d69-3bdc-47a1-a618-d321d2f292c4" />
 
 ---
 
