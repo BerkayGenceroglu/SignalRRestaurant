@@ -67,7 +67,7 @@ Bu ekran, yeni kullanıcıların sisteme kayıt olmak için gerekli bilgileri (A
 Bu ekran, mevcut kullanıcıların sisteme kullanıcı adı ve şifreleriyle güvenli bir şekilde giriş yapmasını sağlayan oturum açma formudur. Henüz hesabı olmayan kullanıcılar için "Kayıt Ol!" seçeneği de mevcuttur.
 
 <img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/14ee9947-df2e-4f73-b146-491ef43c2109" />
-## 🏠 Anasayfa
+### 🏠 Anasayfa
 
 Web sitesinin ana sayfasında, öne çıkan lezzetler dikkat çekici başlıklarla tanıtılır:  
 **“Lezzetli Makarnalar”**, **“Eşsiz Hamburgerler”**, **“Sıcacık ve Doyurucu Menü Seçenekleri”**.  
@@ -85,8 +85,7 @@ Kullanıcılar kategorilere göre filtreleme yapabilir ve ürünlerin detayları
 <img width="1920" height="922" alt="Menü Sayfası" src="https://github.com/user-attachments/assets/87706c12-a8e0-4507-b8b2-a50f0b99233b" />
 
 ---
-
-## 🧑‍🍳 Hakkımızda - Lezzetin Mimarlarıyız
+## 🥗 Yan Ürünler & Menü Detayları
 
 Bu sayfa, işletmenin hikayesini ve lezzet tutkusunu anlatır.  
 Markanın felsefesi, sunulan deneyim ve vizyon detaylandırılmıştır.
@@ -95,7 +94,7 @@ Markanın felsefesi, sunulan deneyim ve vizyon detaylandırılmıştır.
 
 ---
 
-## 🥗 Yan Ürünler & Menü Detayları
+## 🧑‍🍳 Hakkımızda - Lezzetin Mimarlarıyız
 
 Makarnalar, salatalar ve diğer yan ürünler görselleri, isimleri ve fiyatlarıyla listelenir.  
 Her ürün kendi kartı içinde şık şekilde sunulmuştur.
