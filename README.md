@@ -66,5 +66,15 @@ Bu ekran, yeni kullanıcıların sisteme kayıt olmak için gerekli bilgileri (A
 ### Giriş Yap (Log in)
 Bu ekran, mevcut kullanıcıların sisteme kullanıcı adı ve şifreleriyle güvenli bir şekilde giriş yapmasını sağlayan oturum açma formudur. Henüz hesabı olmayan kullanıcılar için "Kayıt Ol!" seçeneği de mevcuttur.
 
-<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/ee8226d2-e80b-418a-a2e8-2afe11444dcd" />
+<img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/14ee9947-df2e-4f73-b146-491ef43c2109" />
+### Anasayfa
+Web sitesinin ana sayfasında yer alan bu tanıtım bannerı, öne çıkan lezzetleri (örneğin "Lezzetli Makarnalar"," Eşsiz Hamburgerler","Sıcacık ve Doyurucu Menü Seçenekleri") büyük ve çekici görsellerle vurgular. Üst menü navigasyonu da bu alanda konumlandırılmıştır.
+
+<img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/db697a0e-4d21-4c87-bb28-1c6be2350c95" />
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/87706c12-a8e0-4507-b8b2-a50f0b99233b" />
+<img width="1906" height="911" alt="image" src="https://github.com/user-attachments/assets/dbb37ca2-f7e9-4a8d-8a00-352f3fa1388a" />
+<img width="1894" height="850" alt="image" src="https://github.com/user-attachments/assets/dd0599a3-949e-4287-abf1-ff0423b4afec" />
+<img width="1892" height="717" alt="image" src="https://github.com/user-attachments/assets/3243db2e-2d41-4833-be73-8ecbdc25da54" />
+<img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/9962bfb6-3ded-44a3-b42c-38ccfc3abe15" />
+
 
