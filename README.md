@@ -56,6 +56,6 @@ SignalRRestaurant/
 │   └── Business Layer (Manager & Service Interfaces)
 │
 └── SignalR.DtoLayer       → API <-> UI veri taşıma sınıfları (DTO)
-
+```plaintext
 
 ## 🖥️ Ekran Görüntüleri
