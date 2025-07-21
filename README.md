@@ -168,6 +168,8 @@ Kullanıcılar ya da işletme personeli, bu ekran üzerinden:
 - Oturum açılmış masaları görüntüleyebilir.
 - Hızlı seçim yaparak masa planlamasını yönetebilir.
 
+Kullanıcı Bir masaya tıklandığında, o masaya ait **toplam sepet tutarı** ve **hesap detayları** sağ alt kısımda gösterilir.  
+Bu özellik sayesinde, masa bazlı hesap takibi kolayca yapılabili
 <img width="1920" height="921" alt="Masa Bilgileri ve Rezervasyon" src="https://github.com/user-attachments/assets/ba006e45-85f4-4da1-914b-02eaa0a1b80e" />
 
 ## 🛒 Sepetim / Sipariş Özeti
