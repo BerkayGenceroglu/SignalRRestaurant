@@ -171,6 +171,7 @@ Kullanıcılar ya da işletme personeli, bu ekran üzerinden:
 Ayrıca Kullanıcı Bir Dolu bir masanın kasa kısmına tıklandığında, o masaya ait **toplam sepet tutarı** ve **hesap detayları** sağ alt kısımda gösterilir.  
 Bu özellik sayesinde, masa bazlı hesap takibi kolayca yapılabilir
 <img width="1920" height="921" alt="Masa Bilgileri ve Rezervasyon" src="https://github.com/user-attachments/assets/ba006e45-85f4-4da1-914b-02eaa0a1b80e" />
+<img width="1917" height="863" alt="image" src="https://github.com/user-attachments/assets/94d69f73-1eb2-4dc4-9a64-3524be9b9213" />
 
 ## 🛒 Sepetim / Sipariş Özeti
 
