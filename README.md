@@ -185,3 +185,18 @@ Bu sayede her girişte güncel ve zengin tarif içerikleri kullanıcılara sunul
 
 <img width="1920" height="922" alt="Tarifler Sayfası" src="https://github.com/user-attachments/assets/4b90cea4-20ea-4be6-aaa2-31d9298e6b74" />
 
+## 📅 Masa Rezervasyon Sayfası (Book A Table)
+
+Bu ekran, kullanıcıların işletmede masa rezervasyonu yapmasını sağlayan bir arayüz sunar.
+
+Kullanıcılar aşağıdaki bilgileri girerek kolayca rezervasyon talebi oluşturabilir:
+- Ad Soyad  
+- Telefon Numarası  
+- E-posta  
+- Kişi Sayısı  
+- Rezervasyon Tarihi  
+
+Sayfanın sağ tarafında ise işletmenin fiziksel konumunu gösteren **interaktif bir harita** yer almaktadır.
+
+<img width="1918" height="921" alt="Masa Rezervasyon Sayfası" src="https://github.com/user-attachments/assets/66f179ff-3bc1-4671-a8cb-83833529fc68" />
+
