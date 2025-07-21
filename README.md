@@ -22,6 +22,7 @@ Ayrıca admin paneli ile ürün, kategori, rezervasyon gibi işlemleri de kontro
 
 ## 🧱 Proje Mimarisi
 
+```plaintext
 SignalRRestaurant/
 │
 ├── SignalRWebUI           → MVC Uygulama Katmanı (UI)
