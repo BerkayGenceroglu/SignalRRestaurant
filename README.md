@@ -60,5 +60,6 @@ SignalRRestaurant/
 ## 🖥️ Ekran Görüntüleri
 # Üye Ol(Register)
 Bu ekran, yeni kullanıcıların sisteme kayıt olmak için gerekli bilgileri (Ad, Soyad, Kullanıcı Adı, E-posta ve Şifre) girdiği kayıt formunu göstermektedir. Kullanıcılar, bilgileri girdikten sonra "Kayıt Ol" butonuna tıklayarak üyelik işlemlerini tamamlayabilirler. Zaten hesabı olan kullanıcılar için "Giriş Yap" linki de mevcuttur.
-<img width="1024" height="491" alt="image" src="https://github.com/user-attachments/assets/39abbb00-a8c8-4e18-9c0d-0306a9244a97" />
+<img width="1920" height="916" alt="image" src="https://github.com/user-attachments/assets/c93fd7cd-14b7-4133-8a1e-b315a82a5613" />
+
 
