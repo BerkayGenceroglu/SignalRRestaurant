@@ -474,14 +474,21 @@ Bu ekran, yöneticinin kendi profil bilgilerini güvenli şekilde güncellemesin
 ![Bilgi Güncelleme Ekranı](https://github.com/user-attachments/assets/6cbadb55-89a1-434a-9037-52b9bac8f370)
 
 
-### 📫 İletişim
+## 📫 İletişim
+
 Proje hakkında sorularınız, önerileriniz ya da katkı istekleriniz için benimle iletişime geçebilirsiniz:
-📧 berkaygenceroglu6@example.com
-🔗 LinkedIn:Berkay Genceroğlu
+
+- 📧 E-posta: **berkaygenceroglu6@example.com**  
+- 🔗 LinkedIn: [Berkay Genceroğlu](https://www.linkedin.com/in/berkaygenceroglu)  
+
 ---
 
 ## 💬 Son Söz
-Teşekkürler! Bu projeyi kullandığınız veya katkıda bulunduğunuz için memnuniyet duyarım. Her türlü geri bildirime açığım.
-İyi kodlamalar! 🚀
+
+Teşekkürler! Bu projeyi kullandığınız veya katkıda bulunduğunuz için memnuniyet duyarım.  
+Her türlü geri bildirime açığım.
+
+**İyi kodlamalar! 🚀**
+
 ---
 
