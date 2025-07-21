@@ -478,8 +478,10 @@ Bu ekran, yöneticinin kendi profil bilgilerini güvenli şekilde güncellemesin
 Proje hakkında sorularınız, önerileriniz ya da katkı istekleriniz için benimle iletişime geçebilirsiniz:
 📧 berkaygenceroglu6@example.com
 🔗 LinkedIn:Berkay Genceroğlu
+---
 
 ## 💬 Son Söz
 Teşekkürler! Bu projeyi kullandığınız veya katkıda bulunduğunuz için memnuniyet duyarım. Her türlü geri bildirime açığım.
 İyi kodlamalar! 🚀
+---
 
