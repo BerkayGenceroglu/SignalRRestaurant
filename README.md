@@ -1,8 +1,7 @@
 <h1 align="center">🍽️ SignalR Restaurant Yönetim Paneli</h1>
 <p align="center">
-  Gerçek zamanlı masa takibi ve restoran yönetim paneli  
+  👨‍🍳 Siparişler • 🪑 Masa Durumu • 📋 Menü Yönetimi • 🧾 Sepet İşlemleri • 🛎️ Rezervasyonlar • 📡 Gerçek Zamanlı İletişim
 </p>
-
 ## 📌 Proje Hakkında
 
 **SignalRRestaurant**, restoranlar için geliştirilen çok katmanlı bir web uygulamasıdır.  
