@@ -65,5 +65,6 @@ Bu ekran, yeni kullanıcıların sisteme kayıt olmak için gerekli bilgileri (A
 
 ### Giriş Yap (Log in)
 Bu ekran, mevcut kullanıcıların sisteme kullanıcı adı ve şifreleriyle güvenli bir şekilde giriş yapmasını sağlayan oturum açma formudur. Henüz hesabı olmayan kullanıcılar için "Kayıt Ol!" seçeneği de mevcuttur.
+
 <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/ee8226d2-e80b-418a-a2e8-2afe11444dcd" />
 
