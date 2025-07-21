@@ -1,4 +1,4 @@
-<h1 align="center">📡 SignalR Tabanlı Gerçek Zamanlı Restoran Yönetim Sistemi</h1>
+<h1 align="center">🍔 SignalR Tabanlı Gerçek Zamanlı Restoran Yönetim Sistemi</h1>
 
 <p align="center">
   Modern restoranların dijital ihtiyaçlarına çözüm sunan, ASP.NET Core MVC ve SignalR teknolojileriyle geliştirilmiş kapsamlı bir yönetim paneli
