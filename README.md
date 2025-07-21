@@ -122,18 +122,36 @@ En altta işletmenin tüm iletişim bilgileri ve sosyal medya bağlantıları ye
 
 <img width="1920" height="923" alt="Footer ve Yorumlar" src="https://github.com/user-attachments/assets/9962bfb6-3ded-44a3-b42c-38ccfc3abe15" />
 
-### 🍔 Menu Sayfası
+## 🍔 Menü Sayfası
 
-Bu bölüm, projenin geniş ve çeşitli menü sayfasını farklı kategorilere göre ayrılmış olarak göstermektedir. Kullanıcılar, üst kısımdaki filtreleme seçeneklerini kullanarak (Hamburger, Patates, Makarna, Salata, Tatlı, İçecek gibi) ürünleri kolayca kategorize edebilir ve sadece istedikleri türdeki menü öğelerini görüntüleyebilirler. Her bir ürünün görseli, açıklaması ve fiyatı sunulurken, kullanıcılar keşfettikleri lezzetleri kolayca inceleyebilir ve sipariş verebilirler.
+Bu bölüm, projenin geniş ve çeşitli menü sayfasını farklı kategorilere göre ayrılmış olarak göstermektedir.  
+Kullanıcılar, üst kısımdaki filtreleme seçeneklerini kullanarak **Hamburger, Patates, Makarna, Salata, Tatlı, İçecek** gibi ürünleri kolayca filtreleyebilir.
 
-<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/70c3fbb3-41c1-4994-93a6-0732575b7816" />
-<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/96b32ec4-75ab-4cad-8fd7-f5b8ad683044" />
-<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/ef99992a-e58e-49bc-93aa-324748b6e15d" />
-### 🍔 Menu Sipariş
-Ürün Sepete Eklendi Onayı
-Bu ekran, menüden seçilen bir ürünün (örneğin "Steak Burger") siparişe veya sepete başarıyla eklendiğini onaylayan bilgilendirme pop-up'ını gösterir. Bu işlem, genellikle önceden seçilmiş veya rezerve edilmiş bir masaya ait sipariş kapsamında gerçekleştirilir ve kullanıcının seçtiği ürünlerin o masanın siparişine dahil edildiğini teyit eder.
+Her bir ürün kartında:
+- Ürün görseli
+- Açıklama
+- Fiyat bilgisi
 
-<img width="1918" height="922" alt="image" src="https://github.com/user-attachments/assets/08cc535f-da70-488d-9ef1-a59326f0bcda" />
-<img width="1920" height="916" alt="image" src="https://github.com/user-attachments/assets/bf1d131a-8f20-487e-9863-c9b69ce2917d" />
+sunularak kullanıcıların lezzetleri keşfetmesi ve siparişe yönelmesi sağlanır.
+
+<img width="800" height="800" alt="Menu Ekranı 1" src="https://github.com/user-attachments/assets/70c3fbb3-41c1-4994-93a6-0732575b7816" />
+<img width="800" height="800" alt="Menu Ekranı 2" src="https://github.com/user-attachments/assets/96b32ec4-75ab-4cad-8fd7-f5b8ad683044" />
+<img width="800" height="800" alt="Menu Ekranı 3" src="https://github.com/user-attachments/assets/ef99992a-e58e-49bc-93aa-324748b6e15d" />
+
+---
+
+## ✅ Menü Sipariş Onayı
+
+Bu ekran, kullanıcı bir ürün seçip **siparişe** veya **sepete** eklediğinde gösterilen başarı mesajını temsil eder.
+
+Örneğin:
+- "Steak Burger" seçildiğinde, kullanıcıya pop-up yoluyla **"Ürün sepete eklendi"** onayı sunulur.
+- Bu işlem, genellikle önceden belirlenmiş bir masaya ait sipariş kapsamında gerçekleşir.
+
+**Amaç:** Kullanıcının seçtiği ürünün siparişe başarıyla eklendiğini açıkça teyit etmektir.
+
+<img width="1918" height="922" alt="Sipariş Onayı 1" src="https://github.com/user-attachments/assets/08cc535f-da70-488d-9ef1-a59326f0bcda" />
+<img width="1920" height="916" alt="Sipariş Onayı 2" src="https://github.com/user-attachments/assets/bf1d131a-8f20-487e-9863-c9b69ce2917d" />
+
 
 
