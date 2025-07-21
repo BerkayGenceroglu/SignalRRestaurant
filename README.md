@@ -67,26 +67,58 @@ Bu ekran, yeni kullanıcıların sisteme kayıt olmak için gerekli bilgileri (A
 Bu ekran, mevcut kullanıcıların sisteme kullanıcı adı ve şifreleriyle güvenli bir şekilde giriş yapmasını sağlayan oturum açma formudur. Henüz hesabı olmayan kullanıcılar için "Kayıt Ol!" seçeneği de mevcuttur.
 
 <img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/14ee9947-df2e-4f73-b146-491ef43c2109" />
-### Anasayfa
+## 🏠 Anasayfa
 
-Web sitesinin ana sayfasında yer alan bu tanıtım bannerı, öne çıkan lezzetleri (örneğin "Lezzetli Makarnalar"," Eşsiz Hamburgerler","Sıcacık ve Doyurucu Menü Seçenekleri") büyük ve çekici görsellerle vurgular. Üst menü navigasyonu da bu alanda konumlandırılmıştır.
+Web sitesinin ana sayfasında, öne çıkan lezzetler dikkat çekici başlıklarla tanıtılır:  
+**“Lezzetli Makarnalar”**, **“Eşsiz Hamburgerler”**, **“Sıcacık ve Doyurucu Menü Seçenekleri”**.  
+Üst menü navigasyonu da bu alanda konumlandırılmıştır.
 
-<img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/db697a0e-4d21-4c87-bb28-1c6be2350c95" />
-Bu ekran, hamburger ve pizza gibi çeşitli menü öğelerini ve özel indirim kampanyalarını sergiler. Kullanıcılar, kategorilere göre filtreleyerek ürünleri keşfedebilir ve detaylarını görüntüleyebilirler.
+<img width="1920" height="914" alt="Anasayfa Banner" src="https://github.com/user-attachments/assets/db697a0e-4d21-4c87-bb28-1c6be2350c95" />
 
-<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/87706c12-a8e0-4507-b8b2-a50f0b99233b" />
-İşletmenin "Lezzetin Mimarlarıyız" felsefesini anlatan bu bölüm, marka hikayesini, yemek yapımına olan tutkusunu ve misafirlerine sunduğu eşsiz deneyimi detaylandırır.
+---
 
-<img width="1906" height="911" alt="image" src="https://github.com/user-attachments/assets/dbb37ca2-f7e9-4a8d-8a00-352f3fa1388a" />
-Ana menüye ek olarak sunulan yan ürünler, makarnalar ve salatalar gibi çeşitli lezzetlerin listelendiği bu ekran, her bir ürünün görselini, adını ve fiyatını gösterir.
+## 🍕 Menü ve Kampanyalar
 
-<img width="1894" height="850" alt="image" src="https://github.com/user-attachments/assets/dd0599a3-949e-4287-abf1-ff0423b4afec" />
-Bu sayfa, kullanıcıların işletmeyle doğrudan iletişime geçebilmesi için bir mesaj gönderme formu sunar. Ayrıca, işletmenin fiziksel konumunu gösteren interaktif bir harita da bu alanda yer alır
+Bu bölümde hamburger, pizza gibi çeşitli menüler ile özel indirim kampanyaları gösterilir.  
+Kullanıcılar kategorilere göre filtreleme yapabilir ve ürünlerin detaylarını inceleyebilir.
 
-<img width="1892" height="717" alt="image" src="https://github.com/user-attachments/assets/3243db2e-2d41-4833-be73-8ecbdc25da54" />
-Bu bölümde, müşterilerin işletmenin lezzetleri ve hizmetleri hakkındaki yorumları ve geri bildirimleri sunulur. Kullanıcıların olumlu deneyimleri, kaydırılabilir bir arayüzde gösterilir.
-Web sitesinin en altında bulunan bu bölüm, işletmenin iletişim bilgilerini (konum, telefon, e-posta), sosyal medya bağlantılarını, kısa bir tanıtım metnini ve çalışma saatlerini özetler.
+<img width="1920" height="922" alt="Menü Sayfası" src="https://github.com/user-attachments/assets/87706c12-a8e0-4507-b8b2-a50f0b99233b" />
 
-<img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/9962bfb6-3ded-44a3-b42c-38ccfc3abe15" />
+---
+
+## 🧑‍🍳 Hakkımızda - Lezzetin Mimarlarıyız
+
+Bu sayfa, işletmenin hikayesini ve lezzet tutkusunu anlatır.  
+Markanın felsefesi, sunulan deneyim ve vizyon detaylandırılmıştır.
+
+<img width="1906" height="911" alt="Hakkımızda" src="https://github.com/user-attachments/assets/dbb37ca2-f7e9-4a8d-8a00-352f3fa1388a" />
+
+---
+
+## 🥗 Yan Ürünler & Menü Detayları
+
+Makarnalar, salatalar ve diğer yan ürünler görselleri, isimleri ve fiyatlarıyla listelenir.  
+Her ürün kendi kartı içinde şık şekilde sunulmuştur.
+
+<img width="1894" height="850" alt="Yan Ürünler" src="https://github.com/user-attachments/assets/dd0599a3-949e-4287-abf1-ff0423b4afec" />
+
+---
+
+## 📬 İletişim Sayfası
+
+Kullanıcılar bu bölümden işletmeye mesaj gönderebilir.  
+Ayrıca fiziksel konum, etkileşimli harita üzerinde gösterilir.
+
+<img width="1892" height="717" alt="İletişim" src="https://github.com/user-attachments/assets/3243db2e-2d41-4833-be73-8ecbdc25da54" />
+
+---
+
+## 💬 Müşteri Yorumları & Footer
+
+Kullanıcı yorumları yatay kaydırılabilir bir arayüzle sunulur.  
+En altta işletmenin tüm iletişim bilgileri ve sosyal medya bağlantıları yer alır.
+
+<img width="1920" height="923" alt="Footer ve Yorumlar" src="https://github.com/user-attachments/assets/9962bfb6-3ded-44a3-b42c-38ccfc3abe15" />
+
 
 
