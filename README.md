@@ -126,8 +126,8 @@ En altta işletmenin tüm iletişim bilgileri ve sosyal medya bağlantıları ye
 
 Bu bölüm, projenin geniş ve çeşitli menü sayfasını farklı kategorilere göre ayrılmış olarak göstermektedir. Kullanıcılar, üst kısımdaki filtreleme seçeneklerini kullanarak (Hamburger, Patates, Makarna, Salata, Tatlı, İçecek gibi) ürünleri kolayca kategorize edebilir ve sadece istedikleri türdeki menü öğelerini görüntüleyebilirler. Her bir ürünün görseli, açıklaması ve fiyatı sunulurken, kullanıcılar keşfettikleri lezzetleri kolayca inceleyebilir ve sipariş verebilirler.
 
-<img width="1917" height="887" alt="image" src="https://github.com/user-attachments/assets/70c3fbb3-41c1-4994-93a6-0732575b7816" />
-<img width="1920" height="816" alt="image" src="https://github.com/user-attachments/assets/96b32ec4-75ab-4cad-8fd7-f5b8ad683044" />
-<img width="1918" height="908" alt="image" src="https://github.com/user-attachments/assets/ef99992a-e58e-49bc-93aa-324748b6e15d" />
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/70c3fbb3-41c1-4994-93a6-0732575b7816" />
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/96b32ec4-75ab-4cad-8fd7-f5b8ad683044" />
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/ef99992a-e58e-49bc-93aa-324748b6e15d" />
 
 
