@@ -1,10 +1,30 @@
-<h1 align="center">🍽️ SignalR Restaurant Yönetim Paneli</h1>
+<h1 align="center">📡 SignalR Tabanlı Gerçek Zamanlı Restoran Yönetim Sistemi</h1>
 
-## 📌 Proje Hakkında
+<p align="center">
+  Modern restoranların dijital ihtiyaçlarına çözüm sunan, ASP.NET Core MVC ve SignalR teknolojileriyle geliştirilmiş kapsamlı bir yönetim paneli
+</p>
 
-**SignalRRestaurant**, restoranlar için geliştirilen çok katmanlı bir web uygulamasıdır.  
-Projede kullanıcıların masa durumu, menü, sepet işlemleri gibi tüm adımları gerçek zamanlı olarak yönetilebilir.  
-Ayrıca admin paneli ile ürün, kategori, rezervasyon gibi işlemleri de kontrol edebilirsin.  
+---
+
+## 🧾 Proje Tanıtımı
+
+**SignalRRestaurant**, restoranlar için geliştirilmiş, çok katmanlı ve modüler yapıya sahip bir **web tabanlı yönetim sistemidir**.  
+Bu proje sayesinde restoran çalışanları ve yöneticileri;
+
+- Gerçek zamanlı masa doluluk durumlarını izleyebilir,
+- Müşteri siparişlerini hızlıca alabilir ve takip edebilir,
+- Ürün, kategori ve kampanyaları kolayca yönetebilir,
+- Rezervasyonları ve müşteri geri bildirimlerini değerlendirebilir,
+- Ve tüm bu işlemleri sade, modern ve kullanıcı dostu bir arayüz üzerinden gerçekleştirebilir.
+
+Proje, hem **müşteri deneyimini artırmayı** hem de **restoran operasyonlarını dijitalleştirerek hızlandırmayı** hedeflemektedir.  
+Gerçek zamanlı iletişim için **SignalR teknolojisi**, veri erişimi ve API tüketimi için **ASP.NET Core Web API** ve arka planda veri yönetimi için **Entity Framework Core** tercih edilmiştir.
+
+Bu sistem, geliştiriciler için SignalR, API entegrasyonu, DTO kullanımı, ViewComponent, AJAX ve çok katmanlı mimari gibi gelişmiş teknikleri bir arada sunar.  
+Ayrıca geliştirilmeye açık olup, AI ile toksik yorum filtreleme gibi yenilikçi özellikleri de desteklemeye uygundur.
+
+---
+
 
 ---
 ## 🚀 Kullanılan Teknolojiler
