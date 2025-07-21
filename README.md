@@ -245,38 +245,150 @@ Sayfanın sağ tarafında ise işletmenin fiziksel konumunu gösteren **interakt
 
 <img width="1918" height="921" alt="Masa Rezervasyon Sayfası" src="https://github.com/user-attachments/assets/66f179ff-3bc1-4671-a8cb-83833529fc68" />
 
-### 👤 Admin Paneli
-## Anlık İstatistik Bilgileri
-Bu ekran, projenin yönetim panelinin ana kontrol merkezidir ve işletmeye ait anlık istatistik bilgilerini görsel olarak sunar. Yöneticiler, bu sayfa üzerinden kategori sayısı, ürün sayısı, aktif/pasif kategoriler, hamburger ve içecek sayıları, ortalama ürün/hamburger fiyatları, toplam ve aktif siparişler, en pahalı/ucuz ürün, kasadaki toplam tutar, günlük kazanç ve boş masa sayısı gibi kritik verileri tek bir yerden takip edebilirler. Bu istatistikler, SignalR teknolojisi sayesinde gerçek zamanlı olarak anında güncellenir, böylece yöneticiler her zaman en güncel bilgilere sahip olurlar. Sol taraftaki navigasyon menüsü ise diğer yönetimsel modüllere (Menü Yönetimi, Kategoriler, Ürünler, Rezervasyonlar, İndirimler vb.) hızlı erişim sağlar.
-<img width="1919" height="927" alt="image" src="https://github.com/user-attachments/assets/c31c5a43-6b4e-4d76-8f64-44c4ed25ab97" />
-## Anlık Bildirimler (SignalR Destekli)
-Bu ekran görüntüsü, yönetim panelindeki anlık bildirim mekanizmasını göstermektedir. Kullanıcılar, panelin sağ üst köşesindeki zil ikonuna tıklayarak açılan bu pencerede "Yeni Siparişiniz var" gibi önemli güncellemeleri zaman damgasıyla birlikte görebilirler. SignalR teknolojisi sayesinde bu bildirimler, herhangi bir sayfa yenilemesi olmadan gerçek zamanlı olarak anında oluşur ve yöneticilere kritik olaylar hakkında hızlı bilgi sağlar. Alt kısımdaki "See all notifications" linki ise tüm bildirim geçmişine erişim imkanı sunar.
-<img width="682" height="344" alt="image" src="https://github.com/user-attachments/assets/18a5ac16-9b07-4705-8ef0-03c850511d09" />
-<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/bdb1d24c-ec66-49df-a0de-d1e211797c97" />
-## Kategoriler
-Bu ekran, yöneticilerin ürün kategorilerini kolayca yönetebildiği bölümdür. Mevcut kategoriler (örn. Hamburger, Patates, Makarna) bir tablo halinde listelenir ve her kategorinin "Durum" bilgisi gösterilir. Yöneticiler, listedeki kategorileri "Sil" veya "Güncelle"me işlemleri yapabilir, ayrıca "Yeni Kategori Ekle" butonu ile sisteme yeni kategoriler tanımlayabilirler.
-<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/ecf3bec3-3f5f-428a-99e5-7936c2e999b1" />
-## Ürünler
-Bu ekran, yönetim panelinin "Ürünler" bölümüdür ve işletmedeki tüm ürünlerin kapsamlı bir listesini sunar. Her bir ürün için adı, fiyatı, kategorisi ve durumu (True: mevcut/aktif, False: mevcut değil/pasif) tablo halinde görüntülenir. Yöneticiler, buradan ürünleri "Sil"ebilir veya "Güncelle"yebilirler. Üst kısımda bulunan arama çubuğu sayesinde belirli ürünler kolayca bulunabilir.
-<img width="1912" height="978" alt="image" src="https://github.com/user-attachments/assets/8034e273-7f47-4194-8d19-6784353b322c" />
-## 📆 Yönetim Paneli - Rezervasyon İşlemleri (SignalR Destekli)
-Bu ekran, yöneticilerin masa rezervasyonlarını merkezi bir yerden yönettiği bölümdür. Rezervasyonlar, ad soyad, telefon, kişi sayısı ve rezervasyon durumu (Onaylandı, İptal Edildi, Alındı gibi) gibi detaylarla liste halinde sunulur. Yöneticiler, her bir rezervasyon üzerinde "Sil", "Güncelle", "Onayla" ve "İptal Et" gibi işlemleri gerçekleştirebilirler. Bu bölüm, SignalR teknolojisi sayesinde anlık olarak çalışır; yani yeni rezervasyonlar veya durum güncellemeleri, sayfa yenilenmesine gerek kalmadan gerçek zamanlı olarak anında yansır, bu da hızlı ve etkili bir yönetim sağlar. "Yeni Rezervasyon Ekle" butonu ile manuel olarak da rezervasyon oluşturulabilir.
-<img width="1920" height="918" alt="image" src="https://github.com/user-attachments/assets/7734f95b-b142-4f5b-a6fb-f299c2dd30dd" />
+## 🎛️ Admin Paneli
+
+### 📊 Anlık İstatistik Bilgileri
+
+Bu ekran, yönetim panelinin ana kontrol merkezidir.  
+Yöneticiler aşağıdaki verilere **gerçek zamanlı** olarak erişebilir:
+
+- Kategori ve ürün sayıları  
+- Aktif/pasif kategori bilgisi  
+- Hamburger ve içecek adetleri  
+- Ortalama fiyatlar (ürün/hamburger)  
+- Sipariş durumu (toplam ve aktif)  
+- En pahalı / en ucuz ürün  
+- Kasadaki toplam tutar  
+- Günlük kazanç  
+- Boş masa sayısı  
+
+📡 Bu veriler **SignalR** teknolojisiyle anlık olarak güncellenmektedir.  
+Sol menüden diğer yönetim modüllerine hızlı erişim mümkündür.
+
+<img width="1919" height="927" alt="Admin Paneli - Anlık İstatistikler" src="https://github.com/user-attachments/assets/c31c5a43-6b4e-4d76-8f64-44c4ed25ab97" />
+
+---
+
+### 🔔 Anlık Bildirimler (SignalR Destekli)
+
+Bu panel, yöneticilere anlık olarak uyarılar gösterir.  
+Bildirimler sağ üstteki zil ikonundan erişilen pencerede listelenir:
+
+- 🆕 Örnek: "Yeni Siparişiniz var"  
+- ⏱️ Zaman damgası ile gösterim  
+- 🔁 Sayfa yenilemeye gerek kalmadan anında bilgilendirme  
+- 📂 "See all notifications" ile geçmiş bildirimlere erişim
+
+<img width="682" height="344" alt="Anlık Bildirimler" src="https://github.com/user-attachments/assets/18a5ac16-9b07-4705-8ef0-03c850511d09" />
+<img width="1919" height="923" alt="Admin Paneli - Bildirim Listesi" src="https://github.com/user-attachments/assets/bdb1d24c-ec66-49df-a0de-d1e211797c97" />
+
+---
+
+### 🗂️ Kategoriler
+
+Bu ekran, ürün kategorilerinin yönetildiği bölümdür.  
+Mevcut kategoriler tablo halinde listelenir ve işlemler yapılabilir:
+
+- 📄 Kategori adı ve durumu  
+- 🛠️ Sil, Güncelle  
+- ➕ "Yeni Kategori Ekle" butonu ile yeni kategori oluşturma
+
+<img width="1920" height="919" alt="Admin Paneli - Kategoriler" src="https://github.com/user-attachments/assets/ecf3bec3-3f5f-428a-99e5-7936c2e999b1" />
+
+---
+
+### 🍔 Ürünler
+
+Bu ekran, sistemde kayıtlı tüm ürünlerin listelendiği bölümdür.  
+Her ürün için şu bilgiler yer alır:
+
+- Ürün adı  
+- Fiyat  
+- Kategorisi  
+- Aktif/pasif durumu  
+
+Yöneticiler ürünleri kolayca **silip güncelleyebilir**, üst kısımdaki **arama çubuğu** sayesinde ürün araması yapabilir.
+
+<img width="1912" height="978" alt="Admin Paneli - Ürünler" src="https://github.com/user-attachments/assets/8034e273-7f47-4194-8d19-6784353b322c" />
+
+---
+
+### 📆 Rezervasyon Yönetimi (SignalR Destekli)
+
+Yöneticiler, bu panelde gelen masa rezervasyonlarını yönetebilir.  
+Tabloda aşağıdaki bilgiler yer alır:
+
+- Ad soyad  
+- Telefon numarası  
+- Kişi sayısı  
+- Rezervasyon durumu (Onaylandı, İptal Edildi vb.)  
+
+Yapılabilecek işlemler:
+
+- 🗑️ Sil  
+- ✏️ Güncelle  
+- ✅ Onayla  
+- ❌ İptal Et  
+- ➕ Yeni rezervasyon oluştur  
+
+SignalR entegrasyonu sayesinde tüm işlemler **gerçek zamanlı** olarak yansıtılır.
+
+<img width="1920" height="918" alt="Admin Paneli - Rezervasyonlar" src="https://github.com/user-attachments/assets/7734f95b-b142-4f5b-a6fb-f299c2dd30dd" />
+
 ## Hakkımızda İşlemleri
-Bu ekran, yöneticilerin web sitesinin "Hakkımızda" bölümündeki içeriği yönetmesini sağlar. "Hakkımızda Listesi" altında, işletmenin felsefesini ve tanıtım metnini içeren bir bölüm (Başlık ve Açıklama) görüntülenir. Yöneticiler bu içeriği "Sil"ebilir veya "Güncelle"yebilirler. Sistemin bütünlüğü için yalnızca tek bir "Hakkımızda" alanı oluşturulması gerektiğini belirten bir uyarı da mevcuttur. Alt kısımda ise yeni bir "Hakkımızda" kısmı eklemek için bir buton bulunur.
-<img width="1918" height="921" alt="image" src="https://github.com/user-attachments/assets/744adff4-7588-488f-ab68-d68e84a6f601" />
+
+Bu ekran, yöneticilerin web sitesinin **"Hakkımızda"** bölümünü yönetmelerini sağlar.
+
+- İçerik: Başlık ve açıklama bilgileriyle birlikte işletme tanıtımı yer alır.
+- İşlemler: Hakkımızda bilgisi **güncellenebilir**, **silinebilir**.
+- Uyarı: Sistemin bütünlüğü için sadece bir adet "Hakkımızda" kaydı bulunmalıdır.
+- Yeni Kayıt: Alt kısımda **"Yeni Hakkımızda Ekle"** butonu yer alır.
+
+![Hakkımızda Ekranı](https://github.com/user-attachments/assets/744adff4-7588-488f-ab68-d68e84a6f601)
+
 ## İndirimler
-Bu ekran görüntüsü, projemizin SignalR Yönetim Paneli'nde yer alan İndirimler Modülü'nü sergilemektedir. Bu modül sayesinde sistemdeki tüm indirimleri (Ürün, İndirim Oranı, Durum bilgileriyle birlikte) kolayca listeleyebilir, mevcut indirimleri anında silebilir, güncelleyebilir veya aktif/pasif durumuna getirebilirsiniz. Ayrıca, "Yeni İndirim Ürünü Girişi" butonu ile sisteme kolayca yeni indirimler ekleyebilir; SignalR entegrasyonu sayesinde tüm bu işlemler gerçek zamanlı olarak yansıtılır, böylece indirim yönetimi hızlı ve etkili bir şekilde gerçekleştirilir.
-<img width="1918" height="901" alt="image" src="https://github.com/user-attachments/assets/0041ea26-549c-4e17-b199-c0629f30ccdd" />
+
+Bu ekran, yönetim panelindeki **İndirimler Modülü**nü temsil eder.
+
+- Listeleme: Ürün, indirim oranı ve durum bilgileriyle tüm indirimler görüntülenir.
+- İşlemler: Mevcut indirimler **güncellenebilir**, **silinebilir**, **aktif/pasif** yapılabilir.
+- Yeni Kayıt: **"Yeni İndirim Ürünü Girişi"** butonu ile yeni indirim eklenebilir.
+- Gerçek Zamanlı: SignalR sayesinde tüm işlemler anında tüm istemcilere yansır.
+
+![İndirimler Ekranı](https://github.com/user-attachments/assets/0041ea26-549c-4e17-b199-c0629f30ccdd)
+
 ## İletişim
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin İletişim Bilgileri Yönetimi modülünü sunmaktadır. Bu bölüm, sitenin iletişim detaylarını (Konum, Telefon, E-posta, Açıklama) kolayca listelemenizi, güncellemenizi, silmenizi veya yeni iletişim bilgileri eklemenizi sağlar. Bu sayede, ziyaretçilerin her zaman en güncel iletişim bilgilerine erişimi garanti altına alın
-<img width="1918" height="922" alt="image" src="https://github.com/user-attachments/assets/6a8efaf7-2970-43b1-9a1f-17be5137fcf7" />
+
+Bu ekran, web sitesine ait iletişim bilgilerinin yönetildiği modüldür.
+
+- Bilgiler: Konum, telefon, e-posta ve açıklama bilgileri listelenir.
+- İşlemler: Bilgiler **güncellenebilir**, **silinebilir** veya **yeni bilgi** eklenebilir.
+- Amaç: Ziyaretçilerin daima güncel iletişim bilgilerine ulaşmasını sağlar.
+
+![İletişim Ekranı](https://github.com/user-attachments/assets/6a8efaf7-2970-43b1-9a1f-17be5137fcf7)
+
 ## Öne Çıkanlar
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Öne Çıkan Alan İşlemleri modülünü sunmaktadır. Bu bölüm, web sitesinin ana sayfasında veya özel tanıtım alanlarında gösterilecek "öne çıkan" içerikleri yönetmek için kullanılır. Yöneticiler, bu modül aracılığıyla başlıkları ve detaylı açıklamaları içeren öne çıkan öğeleri kolayca silebilir, güncelleyebilir veya "Öne Çıkan Alan Ekle" butonu ile yeni tanıtım alanları oluşturabilirler. Bu, sitenin dinamik içeriğini ve ziyaretçilere sunulan özel bilgileri güncel tutmak için ideal bir araçtır.
-<img width="1918" height="921" alt="image" src="https://github.com/user-attachments/assets/f0ef5543-da96-42a0-9f58-7f035a0b40be" />
+
+Bu ekran, web sitesinin ana sayfasında gösterilecek öne çıkan içeriklerin yönetimini sağlar.
+
+- İçerik: Başlık ve detaylı açıklama alanları içerir.
+- İşlemler: Öne çıkan içerikler **silinebilir**, **güncellenebilir**.
+- Yeni Kayıt: **"Öne Çıkan Alan Ekle"** butonu ile yeni içerik eklenebilir.
+- Amaç: Dinamik içerik yönetimiyle web sitesini güncel tutmak.
+
+![Öne Çıkanlar Ekranı](https://github.com/user-attachments/assets/f0ef5543-da96-42a0-9f58-7f035a0b40be)
+
 ## Referanslar
-Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Referans Yorum İşlemleri modülünü sunmaktadır. Bu bölüm, web sitesinde yayınlanan müşteri yorumlarını ve referansları yönetmek için tasarlanmıştır. Yöneticiler, müşteri ad-soyadı ve yorumun durumu (Aktif/Pasif) gibi bilgilerle listelenen referansları kolayca silebilir, güncelleyebilir veya "Yeni Müşteri Yorumu Ekle" butonu ile yeni yorumlar sisteme ekleyebilirler. Bu modül, müşteri geri bildirimlerini etkin bir şekilde yöneterek web sitesinin güvenilirliğini artırmaya yardımcı olur.
-<img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/e635200c-681a-4966-8203-97bed0b85472" />
+
+Bu ekran, müşteri yorumları ve referans içeriklerinin yönetildiği modüldür.
+
+- Bilgiler: Müşteri adı, yorum metni ve yorum durumu (aktif/pasif) ile listelenir.
+- İşlemler: Yorumlar **güncellenebilir**, **silinebilir**.
+- Yeni Kayıt: **"Yeni Müşteri Yorumu Ekle"** butonu ile yeni yorum eklenebilir.
+- Amaç: Web sitesine güven kazandırmak ve kullanıcı geri bildirimlerini sergilemek.
+
+![Referanslar Ekranı](https://github.com/user-attachments/assets/e635200c-681a-4966-8203-97bed0b85472)
+
 ## Sosyal Medya
 Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Sosyal Medya İşlemleri modülünü sunmaktadır. Bu bölüm, web sitesinde kullanılacak sosyal medya platformlarının bağlantılarını merkezi bir yerden yönetmek için tasarlanmıştır. Yöneticiler, listedeki sosyal medya başlıkları ve ilgili linkler üzerinde kolayca silme, güncelleme işlemleri yapabilir veya "Yeni Sosyal Medya Girişi" butonu ile yeni platform bağlantıları ekleyebilirler. Bu modül, sitenin sosyal medya entegrasyonunu dinamik ve güncel tutmak için pratik bir çözüm sunar.
 <img width="1920" height="925" alt="image" src="https://github.com/user-attachments/assets/2cfe4754-41aa-46b2-a825-162f0815c445" />
@@ -306,3 +418,8 @@ Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Profil Bilgilerini Güncelle
 Proje hakkında sorularınız, önerileriniz ya da katkı istekleriniz için benimle iletişime geçebilirsiniz:
 📧 berkaygenceroglu6@example.com
 🔗 LinkedIn:Berkay Genceroğlu
+
+## 💬 Son Söz
+Teşekkürler! Bu projeyi kullandığınız veya katkıda bulunduğunuz için memnuniyet duyarım. Her türlü geri bildirime açığım.
+İyi kodlamalar! 🚀
+
