@@ -129,5 +129,11 @@ Bu bölüm, projenin geniş ve çeşitli menü sayfasını farklı kategorilere 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/70c3fbb3-41c1-4994-93a6-0732575b7816" />
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/96b32ec4-75ab-4cad-8fd7-f5b8ad683044" />
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/ef99992a-e58e-49bc-93aa-324748b6e15d" />
+### 🍔 Menu Sipariş
+Ürün Sepete Eklendi Onayı
+Bu ekran, menüden seçilen bir ürünün (örneğin "Steak Burger") siparişe veya sepete başarıyla eklendiğini onaylayan bilgilendirme pop-up'ını gösterir. Bu işlem, genellikle önceden seçilmiş veya rezerve edilmiş bir masaya ait sipariş kapsamında gerçekleştirilir ve kullanıcının seçtiği ürünlerin o masanın siparişine dahil edildiğini teyit eder.
+
+<img width="1918" height="922" alt="image" src="https://github.com/user-attachments/assets/08cc535f-da70-488d-9ef1-a59326f0bcda" />
+<img width="1920" height="916" alt="image" src="https://github.com/user-attachments/assets/bf1d131a-8f20-487e-9863-c9b69ce2917d" />
 
 
