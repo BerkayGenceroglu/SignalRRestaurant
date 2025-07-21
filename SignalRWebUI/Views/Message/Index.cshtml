@@ -1,0 +1,75 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+@await Component.InvokeAsync("_UILayoutHeadComponentPartial")
+
+<body class="sub_page">
+    @await Component.InvokeAsync("_UILayoutNavbarComponentPartial")
+    </div>
+    <!-- food section -->
+    <section class="food_section layout_padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-warning">SignalR Restoran Anlık Mesajlaşma</h2>
+                <p class="text-muted">Kullanıcılar arası gerçek zamanlı sohbet sistemi</p>
+            </div>
+
+            <!-- Kullanıcı Adı -->
+            <div class="row justify-content-center mb-3">
+                <div class="col-md-3 text-end align-self-center">
+                    <label for="userinput" class="form-label fw-semibold">Kullanıcı Adınız:</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="userinput" class="form-control border border-warning shadow-sm" placeholder="Adınızı girin" />
+                </div>
+            </div>
+
+            <!-- Mesaj -->
+            <div class="row justify-content-center mb-3">
+                <div class="col-md-3 text-end align-self-center">
+                    <label for="messageinput" class="form-label fw-semibold">Mesajınız:</label>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="messageinput" class="form-control border border-warning shadow-sm" placeholder="Mesajınızı yazın" />
+                </div>
+            </div>
+
+            <!-- Gönder Butonu -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-9 text-end">
+                    <button id="sendbutton" class="btn btn-warning px-4 py-2 shadow"> Mesaj Gönder</button>
+                </div>
+            </div>
+
+            <hr class="mb-4" />
+
+            <!-- Mesaj Listesi -->
+            <div class="row justify-content-center">
+                <div class="col-md-9">
+                    <ul id="messageList" class="list-group shadow-sm">
+                        <!-- Mesajlar buraya gelecek -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end food section -->
+    <!-- footer section -->
+    @await Component.InvokeAsync("_UILayoutFooterComponentPartial")
+    <!-- jQery -->
+    @await Component.InvokeAsync("_UILayoutScriptComponentPartial")
+
+    <!-- Bootstrap ve SignalR -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.8/signalr.min.js"></script>
+    <!-- Chat JavaScript -->
+    <script src="~/js/chat.js"></script>
+</body>
+</html>
+
+

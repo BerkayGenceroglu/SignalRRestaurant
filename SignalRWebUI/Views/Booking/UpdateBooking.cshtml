@@ -1,0 +1,59 @@
+﻿@model UpdateBookingDto
+@{
+    ViewData["Title"] = "UpdateBooking";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Rezarvasyon İşlemleri</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">Yeni Rezarvasyon Girişi</div>
+						</div>
+						<input type="hidden" asp-for="BookingID" />
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Name">Ad Soyad</label>
+								<input type="text" class="form-control" id="Name" asp-for="Name">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Phone">Telonunuzu Giriniz</label>
+								<input type="tel" class="form-control" id="Phone" asp-for="Phone">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Mail">Mail Adresi Giriniz</label>
+								<input type="email" class="form-control" id="Mail" asp-for="Mail">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="PersonCount">Kişi Sayısı Giriniz</label>
+								<input type="number" class="form-control" id="PersonCount" asp-for="PersonCount">
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="Date">Rezarvasyon Tarihi</label>
+								<input type="date" class="form-control" id="Date" asp-for="Date">
+							</div>
+						</div>
+						<div class="card-action">
+							<button class="btn btn-primary">Rezarvasyon Güncelle</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+

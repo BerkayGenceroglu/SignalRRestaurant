@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+@await Component.InvokeAsync("_UILayoutHeadComponentPartial")
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+<body class="sub_page">
+    @await Component.InvokeAsync("_UILayoutNavbarComponentPartial")
+    </div>
+    <!-- Scripts -->
+	<script type="text/javascript">
+		$(document).ready(() => { //Sayfa tamamen yüklendiğinde içindeki kodu çalıştır demektir
+			var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:7259/signalRhub").build();/*burda bir signalr bağlantısı oluşturuyoruz önceden oluşturmuş olduğumuz sunucunun urlsini veriyoruz   */
+			$("#connstatus").text(connection.state);
+			connection.start().then(() => {
+				$("#connstatus").text(connection.state);
+			}).catch((err) => { console.log(err) });
+
+            connection.on("ReceiveClientCount", (value) => {
+                $("#ReceiveClientCount").text(value);
+			});
+		});
+	</script>
+	<!-- end script -->
+    <!-- food section -->
+    <section class="food_section layout_padding">
+        <div class="container">
+            <h4>Aktif Kullanıcı Sayısı:<span id="ReceiveClientCount"></span></h4>
+        </div>
+    </section>
+    <!-- end food section -->
+    <!-- footer section -->
+    @await Component.InvokeAsync("_UILayoutFooterComponentPartial")
+    <!-- jQery -->
+    @await Component.InvokeAsync("_UILayoutScriptComponentPartial")
+</body>
+</html>

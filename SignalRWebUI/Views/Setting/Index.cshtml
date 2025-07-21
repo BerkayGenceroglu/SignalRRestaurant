@@ -1,0 +1,93 @@
+﻿@model EditProfileDto
+@{
+    ViewData["Title"] = "Profil Güncelleme";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<style>
+    body {
+        background-color: #f2f4f7;
+    }
+
+    .card-custom {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 35px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .btn-primary {
+        padding: 12px;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    h3.title {
+        font-weight: 700;
+        color: #2c3e50;
+    }
+</style>
+
+<div class="content py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <h3 class="text-center title mb-4 text-warning">Profil Bilgilerini Güncelle</h3>
+
+                <div class="card-custom">
+                    <form method="post">
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="form-label">Adınız</label>
+                            <input type="text" class="form-control" asp-for="Name" placeholder="Adınızı giriniz">
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Surname" class="form-label">Soyadınız</label>
+                            <input type="text" class="form-control" asp-for="Surname" placeholder="Soyadınızı giriniz">
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Username" class="form-label">Kullanıcı Adınız</label>
+                            <input type="text" class="form-control" asp-for="Username" placeholder="Kullanıcı adınızı giriniz">
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Mail" class="form-label">E-posta Adresiniz</label>
+                            <input type="email" class="form-control" asp-for="Mail" placeholder="E-posta adresinizi giriniz">
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Password" class="form-label">Yeni Şifreniz</label>
+                            <input type="password" class="form-control" asp-for="Password" placeholder="Yeni şifrenizi giriniz">
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="ConfirmPassword" class="form-label">Yeni Şifre Tekrar</label>
+                            <input type="password" class="form-control" asp-for="ConfirmPassword" placeholder="Yeni şifrenizi tekrar giriniz">
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-warning w-100">
+                                Bilgileri Kaydet
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

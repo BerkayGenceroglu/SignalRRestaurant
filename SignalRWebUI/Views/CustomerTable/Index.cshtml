@@ -1,0 +1,95 @@
+﻿@model List<ResultMenuTableDto>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" />
+@await Component.InvokeAsync("_UILayoutHeadComponentPartial")
+<style>
+    .table-card {
+        transition: transform 0.3s ease;
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+        .table-card:hover {
+            transform: scale(1.05);
+        }
+
+    .table-available {
+        background-color: #ffcccc; /* kırmızımsı - boş */
+        border-left: 8px solid #dc3545;
+    }
+
+    .table-occupied {
+        background-color: #ccffcc; /* yeşilimsi - dolu */
+        border-left: 8px solid #28a745;
+    }
+
+    .table-card h5 {
+        font-weight: bold;
+    }
+
+    .table-card p {
+        margin: 0;
+        font-size: 0.95rem;
+        color: #333;
+    }
+</style>
+<body class="sub_page">
+    @await Component.InvokeAsync("_UILayoutNavbarComponentPartial")
+    </div>
+    <br />
+    <div class="container">
+        <div class="heading_container heading_center mb-4">
+            <h2 class="text-dark">Masa Bilgileri</h2>
+            <p class="text-muted">Masa Seçiminiz için burdaki tablolardan Yararlanabilirsiniz</p>
+        </div>
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                var statusClass = item.Status ? "bg-success" : "bg-danger";
+                var isAvailable = item.Status;
+
+                <div class="col-md-3 mb-4">
+                    @if (isAvailable)
+                    {
+                        <!-- Dolu masa: tıklanamaz -->
+                        <div class="card table-card @statusClass text-white">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Masa = @item.Name</h5>
+                                <p class="status-label mb-0 text-white">
+                                    Durum: <strong>Dolu</strong>
+                                    <a href="/Basket/Index/@item.MenuTableId"><i class="la la-newspaper-o text-white" ></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                       <!-- Boş masa: tıklanabilir -->
+                        <a href="/Menu/Index/@item.MenuTableId" class="text-decoration-none">
+                            <div class="card table-card @statusClass text-white">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Masa @item.Name</h5>
+                                    <p class="status-label mb-0 text-white">
+                                        Durum: <strong>Boş</strong>
+                                        <i class="la la-times-circle ms-2"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    }
+                </div>
+            }
+        </div>
+
+    </div>
+
+    @await Component.InvokeAsync("_UILayoutFooterComponentPartial")
+    @await Component.InvokeAsync("_UILayoutScriptComponentPartial")
+</body>
+</html>
