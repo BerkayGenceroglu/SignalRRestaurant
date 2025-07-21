@@ -58,15 +58,34 @@ SignalRRestaurant/
 ``` </pre>
 
 ## 🖥️ Ekran Görüntüleri
-### Üye Ol (Register)
-Bu ekran, yeni kullanıcıların sisteme kayıt olmak için gerekli bilgileri (Ad, Soyad, Kullanıcı Adı, E-posta ve Şifre) girdiği kayıt formunu göstermektedir. Kullanıcılar, bilgileri girdikten sonra "Kayıt Ol" butonuna tıklayarak üyelik işlemlerini tamamlayabilirler. Zaten hesabı olan kullanıcılar için "Giriş Yap" linki de mevcuttur.
+## 👤 Kullanıcı Girişi ve Üyelik
 
-<img width="1920" height="916" alt="image" src="https://github.com/user-attachments/assets/c93fd7cd-14b7-4133-8a1e-b315a82a5613" />
+### 📝 Üye Ol (Register)
 
-### Giriş Yap (Log in)
-Bu ekran, mevcut kullanıcıların sisteme kullanıcı adı ve şifreleriyle güvenli bir şekilde giriş yapmasını sağlayan oturum açma formudur. Henüz hesabı olmayan kullanıcılar için "Kayıt Ol!" seçeneği de mevcuttur.
+Bu ekran, yeni kullanıcıların sisteme kayıt olması için gerekli form alanlarını içerir.  
+Kullanıcılar aşağıdaki bilgileri doldurarak üyelik işlemlerini tamamlayabilir:
 
-<img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/14ee9947-df2e-4f73-b146-491ef43c2109" />
+- Ad  
+- Soyad  
+- Kullanıcı Adı  
+- E-posta  
+- Şifre  
+
+Kayıt işlemi tamamlandıktan sonra kullanıcılar sisteme giriş yapabilir.  
+Zaten hesabı olan kullanıcılar için sayfanın altında **“Giriş Yap”** linki mevcuttur.
+
+<img width="1920" height="916" alt="Üye Ol Sayfası" src="https://github.com/user-attachments/assets/c93fd7cd-14b7-4133-8a1e-b315a82a5613" />
+
+---
+
+### 🔐 Giriş Yap (Log In)
+
+Bu ekran, mevcut kullanıcıların sisteme kullanıcı adı ve şifre ile güvenli bir şekilde giriş yapmasını sağlar.  
+Giriş formu, sade ve kullanıcı dostudur.  
+Henüz hesabı olmayan kullanıcılar için alt kısımda **“Kayıt Ol!”** seçeneği sunulmuştur.
+
+<img width="1920" height="914" alt="Giriş Sayfası" src="https://github.com/user-attachments/assets/14ee9947-df2e-4f73-b146-491ef43c2109" />
+
 
 ---
 ### 🏠 Anasayfa
