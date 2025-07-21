@@ -39,7 +39,6 @@ Ayrıca geliştirilmeye açık olup, AI ile toksik yorum filtreleme gibi yenilik
 
 ## 🧱 Proje Mimarisi
 
-```plaintext
 SignalRRestaurant/
 │
 ├── SignalRWebUI           → MVC Uygulama Katmanı (UI)
@@ -56,6 +55,6 @@ SignalRRestaurant/
 │   └── Business Layer (Manager & Service Interfaces)
 │
 └── SignalR.DtoLayer       → API <-> UI veri taşıma sınıfları (DTO)
-```plaintext
+
 
 ## 🖥️ Ekran Görüntüleri
