@@ -170,6 +170,29 @@ Kullanıcılar ya da işletme personeli, bu ekran üzerinden:
 
 <img width="1920" height="921" alt="Masa Bilgileri ve Rezervasyon" src="https://github.com/user-attachments/assets/ba006e45-85f4-4da1-914b-02eaa0a1b80e" />
 
+## 🛒 Sepetim / Sipariş Özeti
+
+Bu ekran, kullanıcıların seçtiği tüm ürünlerin toplandığı alışveriş sepetini gösterir.  
+Sepet, kullanıcının seçtiği veya rezerve ettiği masaya özel tutulur.
+
+Sepette listelenen bilgiler:  
+- Ürün Adı  
+- Adet  
+- Fiyat  
+- Toplam Tutar  
+
+Kullanıcılar, istedikleri ürünleri sepetten kolayca çıkarabilirler.
+
+Sağ tarafta ise:  
+- Sipariş özeti (Ürün Tutarı, KDV, Genel Toplam)  
+- Kupon kodu uygulama alanı  
+
+bulunur.
+
+Kullanıcılar, siparişlerini gözden geçirdikten sonra **“Siparişi Tamamla”** butonuna tıklayarak ödeme aşamasına geçebilirler.
+
+<img width="1920" height="979" alt="Sepetim / Sipariş Özeti" src="https://github.com/user-attachments/assets/44bb2c11-3411-47ae-a92c-f5fda7871753" />
+
 ## 🍳 Tarifler
 
 Bu ekran, çeşitli **“Lezzetli Tarifler”** bölümünü sunar.  
