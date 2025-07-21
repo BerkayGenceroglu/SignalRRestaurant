@@ -154,7 +154,20 @@ Bu ekran, kullanıcı bir ürün seçip **siparişe** veya **sepete** eklediğin
 <img width="1920" height="916" alt="Sipariş Onayı 2" src="https://github.com/user-attachments/assets/bf1d131a-8f20-487e-9863-c9b69ce2917d" />
 
 ## 📍 Masa Bilgileri ve Rezervasyon
-Bu ekran, işletmenin mevcut tüm masalarının durumunu (boş veya dolu) detaylı bir şekilde gösterir. Masalar salon, bahçe, teras ve üst kat gibi kategorilere ayrılmıştır. Kullanıcılar veya işletme personeli, rezervasyon veya oturum için uygun masaları hızlıca tespit edip seçim yapabilirler.
 
-<img width="1920" height="921" alt="image" src="https://github.com/user-attachments/assets/ba006e45-85f4-4da1-914b-02eaa0a1b80e" />
+Bu ekran, işletmenin mevcut tüm masalarının durumunu (**boş** veya **dolu**) detaylı bir şekilde gösterir.  
+Masalar aşağıdaki gibi farklı alanlara ayrılmıştır:
+
+- Salon  
+- Bahçe  
+- Teras  
+- Üst Kat  
+
+Kullanıcılar ya da işletme personeli, bu ekran üzerinden:
+- Rezervasyon yapılabilecek uygun masaları kolayca tespit edebilir.
+- Oturum açılmış masaları görüntüleyebilir.
+- Hızlı seçim yaparak masa planlamasını yönetebilir.
+
+<img width="1920" height="921" alt="Masa Bilgileri ve Rezervasyon" src="https://github.com/user-attachments/assets/ba006e45-85f4-4da1-914b-02eaa0a1b80e" />
+
 
