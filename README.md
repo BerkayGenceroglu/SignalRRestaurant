@@ -177,9 +177,8 @@ Her bir tarif için:
 
 - Tarif Başlığı  
 - Tahmini Hazırlık Süresi  
-- Videolu tarife yönlendiren bir **"Tarifi İzle"** butonu  
+- Videolu tarife yönlendiren bir **"Tarifi İzle"** butonu  bulunmaktadır.
 
-bulunmaktadır.
 
 Tarif içerikleri, **RapidAPI** üzerinden **dinamik** olarak çekilmektedir.  
 Bu sayede her girişte güncel ve zengin tarif içerikleri kullanıcılara sunulur.
