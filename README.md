@@ -301,3 +301,8 @@ Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Mail Gönder modülünü sun
 ## Bilgi Güncelleme
 Bu ekran görüntüsü, SignalR Yönetim Paneli'nin Profil Bilgilerini Güncelle modülünü sunmaktadır. Bu bölüm, yöneticilerin kendi kişisel ve hesap bilgilerini (Ad, Soyad, Kullanıcı Adı, E-posta Adresi ve Şifre) güvenli bir şekilde güncellemelerine olanak tanır. Yöneticiler, bu modül aracılığıyla profillerindeki bilgileri kolayca düzenleyerek hesaplarını güncel tutabilir ve gerektiğinde şifrelerini yenileyebilirler.
 <img width="1914" height="922" alt="image" src="https://github.com/user-attachments/assets/6cbadb55-89a1-434a-9037-52b9bac8f370" />
+
+### 📫 İletişim
+Proje hakkında sorularınız, önerileriniz ya da katkı istekleriniz için benimle iletişime geçebilirsiniz:
+📧 berkaygenceroglu6@example.com
+🔗 LinkedIn:Berkay Genceroğlu
