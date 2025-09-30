@@ -3,7 +3,7 @@
 <p align="center">
   Modern restoranların dijital ihtiyaçlarına çözüm sunan, ASP.NET Core MVC ve SignalR teknolojileriyle geliştirilmiş kapsamlı bir yönetim paneli
 </p>
-
+ 
 --- 
 
 ## 🧾 Proje Tanıtımı
