@@ -16,7 +16,7 @@ namespace SignalRWebUI.Controllers
         public IActionResult Index(CreateMailDto createMailDto)
         {
             MimeMessage mimeMessage = new MimeMessage();
-            MailboxAddress mailboxAddressFrom = new MailboxAddress("SignalR Rezarvasyon", "berkaygenceroglu6@gmail.com");
+            MailboxAddress mailboxAddressFrom = new MailboxAddress("SignalR Rezarvasyon", "y");
             mimeMessage.From.Add(mailboxAddressFrom);
             MailboxAddress mailboxAdressTo = new MailboxAddress("User", createMailDto.ReceiverMail);
             mimeMessage.To.Add(mailboxAdressTo);
@@ -27,7 +27,7 @@ namespace SignalRWebUI.Controllers
 
             SmtpClient client = new SmtpClient();
             client.Connect("smtp.gmail.com", 587, false);
-            client.Authenticate("berkaygenceroglu6@gmail.com", "oikguxlicnznwpwu");
+            client.Authenticate("berkaygenceroglu6@gmail.com", "");
             client.Send(mimeMessage);
             client.Disconnect(true);
             return RedirectToAction("Index","Category");
